@@ -1,0 +1,5 @@
+# Created at 2023-06-08T11:03:45.323
+Boot Manifest-JAR contains absolute paths in classpath 'D:\ameliore\apicrud\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

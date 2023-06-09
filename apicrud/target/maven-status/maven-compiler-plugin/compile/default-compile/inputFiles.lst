@@ -1,0 +1,14 @@
+D:\ameliore\apicrud\src\main\java\com\example\samplecrudapi\apicrud\repo\LangRepo.java
+D:\ameliore\apicrud\src\main\java\com\example\samplecrudapi\apicrud\repo\MenuI18NRepo.java
+D:\ameliore\apicrud\src\main\java\com\example\samplecrudapi\apicrud\listener\MenuI18NListener.java
+D:\ameliore\apicrud\src\main\java\com\example\samplecrudapi\apicrud\entity\LangEntity.java
+D:\ameliore\apicrud\src\main\java\com\example\samplecrudapi\apicrud\repo\MenuRepo.java
+D:\ameliore\apicrud\src\main\java\com\example\samplecrudapi\apicrud\entity\I18NKey.java
+D:\ameliore\apicrud\src\main\java\com\example\samplecrudapi\apicrud\controller\MenuI18NController.java
+D:\ameliore\apicrud\src\main\java\com\example\samplecrudapi\apicrud\entity\MenuEntity.java
+D:\ameliore\apicrud\src\main\java\com\example\samplecrudapi\apicrud\listener\SysMenuListener.java
+D:\ameliore\apicrud\src\main\java\com\example\samplecrudapi\apicrud\listener\SysLangListener.java
+D:\ameliore\apicrud\src\main\java\com\example\samplecrudapi\apicrud\entity\MenuI18NEntity.java
+D:\ameliore\apicrud\src\main\java\com\example\samplecrudapi\apicrud\ApicrudApplication.java
+D:\ameliore\apicrud\src\main\java\com\example\samplecrudapi\apicrud\controller\LangController.java
+D:\ameliore\apicrud\src\main\java\com\example\samplecrudapi\apicrud\controller\MenuController.java
