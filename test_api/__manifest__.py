@@ -12,7 +12,7 @@
     'data': [
         'views/views_lang.xml',
         'views/views_menu.xml',
-        'views/views_menui18n.xml'
+        'views/views_menui18n.xml',
         'views/database_connection.xml',
     ],
     'installable': True,
