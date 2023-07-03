@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="database_connection_config" model="ir.config_parameter">
+            <field name="key">database.connection</field>
+            <field name="value">dbname=testapicobain;user=root;password=Azunyan123!@#</field>
+        </record>
+    </data>
+</odoo>
