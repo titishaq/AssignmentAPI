@@ -1,0 +1,45 @@
+<odoo>
+    <data>
+        <record id="view_menu_i18n_tree" model="ir.ui.view">
+            <field name="name">my_custom_module.menu_i18n.tree</field>
+            <field name="model">my_custom_module.menu_i18n</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="menu_id"/>
+                    <field name="lang_code"/>
+                    <field name="menu_name"/>
+                    <field name="menu_desc"/>
+                    <field name="modified_by"/>
+                    <field name="modified_at"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_menu_i18n_form" model="ir.ui.view">
+            <field name="name">my_custom_module.menu_i18n.form</field>
+            <field name="model">my_custom_module.menu_i18n</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="menu_id"/>
+                            <field name="lang_code"/>
+                            <field name="menu_name"/>
+                            <field name="menu_desc"/>
+                            <field name="modified_by"/>
+                            <field name="modified_at"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="menu_menu_i18n" model="ir.actions.act_window">
+            <field name="name">Menu Internationalization</field>
+            <field name="res_model">my_custom_module.menu_i18n</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <menuitem id="menu_CRUD" name="CRUD"/>
+        <menuitem id="menu_i18n_crud" name="menui18n CRUD" parent="menu_CRUD" action="menu_menu_i18n"/>
+    </data>
+</odoo>
