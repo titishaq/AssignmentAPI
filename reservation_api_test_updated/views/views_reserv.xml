@@ -1,0 +1,70 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="reservation_tree_view">
+            <field name="name">Reservation Tree View</field>
+            <field name="model">my_custom_module.reserv</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="no_reservasi" string="No Reservasi" required="1" size="12"/>
+                    <field name="no_pendaftaran" string="No Pendaftaran" required="1" size="12"/>
+                    <field name="kd_poli" string="Kd Poli" size="2"/>
+                    <field name="norm" string="Norm" size="8"/>
+                    <field name="tgl_reservasi" string="Tgl Reservasi"/>
+                    <field name="tgl_daftar" string="Tgl Daftar"/>
+                    <field name="no_urut" string="No Urut" size="7"/>
+                    <field name="nama" string="Nama" size="35"/>
+                    <field name="kd_dokter" string="Kd Dokter" size="7"/>
+                    <field name="kd_caramasuk" string="Kd Caramasuk" size="2"/>
+                    <field name="nm_telp" string="Nm Telp" size="35"/>
+                    <field name="no_telp1" string="No Telp1" size="20"/>
+                    <field name="sts_batal" string="Sts Batal"/>
+                    <field name="sts_pagi" string="Sts Pagi"/>
+                    <field name="kd_jns_carabayar" string="Kd Jns Carabayar" size="2"/>
+                    <field name="kd_bayar" string="Kd Bayar" size="3"/>
+                    <field name="modified_by" string="Modified By"/>
+                    <field name="modified_at" string="Modified At" readonly="1" widget="datetime"/>
+                </tree>
+            </field>
+        </record>
+        <record id="view_reserv_form" model="ir.ui.view">
+            <field name="name">my_custom_module.reserv.form</field>
+            <field name="model">my_custom_module.reserv</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="no_reservasi" string="No Reservasi" required="1" size="12"/>
+                            <field name="no_pendaftaran" string="No Pendaftaran" required="1" size="12"/>
+                            <field name="kd_poli" string="Kd Poli" size="2"/>
+                            <field name="norm" string="Norm" size="8"/>
+                            <field name="tgl_reservasi" string="Tgl Reservasi"/>
+                            <field name="tgl_daftar" string="Tgl Daftar"/>
+                            <field name="no_urut" string="No Urut" size="7"/>
+                            <field name="nama" string="Nama" size="35"/>
+                            <field name="kd_dokter" string="Kd Dokter" size="7"/>
+                            <field name="kd_caramasuk" string="Kd Caramasuk" size="2"/>
+                            <field name="nm_telp" string="Nm Telp" size="35"/>
+                            <field name="no_telp1" string="No Telp1" size="20"/>
+                            <field name="sts_batal" string="Sts Batal"/>
+                            <field name="sts_pagi" string="Sts Pagi"/>
+                            <field name="kd_jns_carabayar" string="Kd Jns Carabayar" size="2"/>
+                            <field name="kd_bayar" string="Kd Bayar" size="3"/>
+                            <field name="modified_by" string="Modified By"/>
+                            <field name="modified_at" string="Modified At" readonly="1" widget="datetime"/>
+                        </group>
+                    </sheet>
+                      <footer>
+                        <button string="Create Reservation" name="create_reservation" type="object" class="btn-primary"/>
+                      </footer>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="reservation_list_action">
+            <field name="name">Reservation List</field>
+            <field name="res_model">odoo_rest_module.reservation</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <menuitem name="Reservations" id="reservation_menu" parent="base.menu_administration" action="reservation_list_action"/>
+    </data>
+</odoo>
