@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.samplecrudapi.apicrud.ApicrudApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.893 s - in com.example.samplecrudapi.apicrud.ApicrudApplicationTests

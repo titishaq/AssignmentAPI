@@ -1,0 +1,14 @@
+com\example\samplecrudapi\apicrud\entity\LangEntity.class
+com\example\samplecrudapi\apicrud\controller\MenuController.class
+com\example\samplecrudapi\apicrud\repo\MenuI18NRepo.class
+com\example\samplecrudapi\apicrud\entity\MenuEntity.class
+com\example\samplecrudapi\apicrud\ApicrudApplication.class
+com\example\samplecrudapi\apicrud\entity\I18NKey.class
+com\example\samplecrudapi\apicrud\listener\SysMenuListener.class
+com\example\samplecrudapi\apicrud\repo\MenuRepo.class
+com\example\samplecrudapi\apicrud\controller\MenuI18NController.class
+com\example\samplecrudapi\apicrud\controller\LangController.class
+com\example\samplecrudapi\apicrud\listener\MenuI18NListener.class
+com\example\samplecrudapi\apicrud\entity\MenuI18NEntity.class
+com\example\samplecrudapi\apicrud\repo\LangRepo.class
+com\example\samplecrudapi\apicrud\listener\SysLangListener.class
